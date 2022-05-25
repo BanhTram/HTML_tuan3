@@ -7,20 +7,19 @@
     background: #F8F8F8;
 }
 
-/* .container {
-    margin-top: 42px;
-    margin: auto;
-    width: 417px;
-    height: 679px;
-} */
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
 
-    /* height: 776px; */
     width: 100%;
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
 .content {
@@ -37,7 +36,6 @@
     margin: auto;
     width: 417px;
     height: 519px;
-    margin-top: 40px;
 }
 
 .parent_table tr td {

@@ -12,9 +12,9 @@
     align-items: center;
     justify-content: center;
 
-    /* height: 776px; */
     width: 100%;
     min-height: 100vh;
+    margin: auto;
 }
 
 .content {
