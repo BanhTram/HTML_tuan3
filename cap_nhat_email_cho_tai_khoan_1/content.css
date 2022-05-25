@@ -30,6 +30,7 @@
 .content table {
     background-color: #FFFFFF;
     border-radius: 6px;
+    width: 417px;
 }
 
 .content table tr {
@@ -93,4 +94,5 @@ a {
     color: #5F6368;
     background: #FFFFFF;
     background-color: rgba(242, 153, 74, 0);
+    font-style: normal;
 }

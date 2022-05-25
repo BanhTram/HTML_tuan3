@@ -3,83 +3,62 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto';
-    background: #F8F8F8;
     font-size: 14px;
+    background: #F8F8F8;
 }
 
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    width: 100%;
-    min-height: 100vh;
+    margin-top: 42px;
+    margin: auto;
+    width: 417px;
+    height: 679px;
 }
 
-.content {
-    margin-top: -100px;
-    background-color: #FFFFFF;
+.parent_table {
+    background: #FFFFFF;
+    border-radius: 6px;
+    margin: auto;
+    width: 417px;
     height: 519px;
-    width: 407px;
-
-    border-radius: 6px;
+    margin-top: 40px;
 }
 
-.content .parent_table {
-    background-color: #FFFFFF;
-    border-radius: 6px;
-}
-
-.content .parent_table tr {
-    background-color: #FFFFFF;
+.parent_table tr td {
     text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background: #FFFFFF;
 }
 
-.content .parent_table tr td {
-    background-color: #FFFFFF;
-    text-align: center;
-    font-size: 14px;
+.parent_table tr td img {
+    background: #FFFFFF;
 }
 
-.content .parent_table tr td img {
-    background-color: #FFFFFF;
-    margin-top: 14px;
+.parent_table tr .ezCloudhotel{
+    height: 80px;
 }
 
-.content .parent_table tr .title {
-    color: #3D3F43;
+.parent_table tr .title {
     font-size: 24px;
     line-height: 28px;
-    margin-top: 16px;
+    height: 40px;
+
+    color: #3D3F43;
 }
 
-.content .parent_table tr td .detail {
-    text-align: justify;
-    background-color: #FFFFFF;
-    padding-left: 26px;
-    height: 84px;
-    margin: 10px 0 10px 0;
+.parent_table tr .detail {
+    font-size: 14px;
     line-height: 21px;
-    color: #5F6368;;
-}
 
-.content .parent_table tr td .submit_button {
-    width: 95px;
-    height: 36px;
-
-    border-radius: 5px;
-    background: #114A9F;
-    border: 0;
-
-    color: #FFFFFF;
-    margin-bottom: 16px;
-    margin-top: 16px;
-}
-
-.content .parent_table tr .note {
     color: #5F6368;
-    line-height: 21px;
+    text-align: justify;
+    padding-left: 31px;
+    height: 84px;
+}
+
+.parent_table tr .ending_mail{
+    color: #5F6368;
+    text-align: justify;
+    padding-left: 31px;
+    padding-bottom: 30px;
+    box-sizing: content-box;
+    height: 40px;
 }

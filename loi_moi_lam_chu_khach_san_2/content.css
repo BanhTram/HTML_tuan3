@@ -30,7 +30,7 @@
 .content table {
     background-color: #FFFFFF;
     border-radius: 6px;
-    width: 395px;
+    width: 417px;
 }
 
 .content table tr {
@@ -62,9 +62,9 @@
 .content table tr td .detail {
     text-align: justify;
     background-color: #FFFFFF;
-    padding: 10px 26px;
     height: 42px;
-    margin: 10px 0 10px 0;
+    margin-top: 10px;
+    margin-right: 36px;
     line-height: 21px;
     color: #5F6368;
 }
@@ -74,6 +74,7 @@
 }
 
 .content table tr .message {
+    
     color: #FDB914;
     background-color: #FFFFFF;
     font-size: 14px;
@@ -81,7 +82,7 @@
     font-style: italic;
 
     margin-top: 10px;
-    margin-left: 36px;
+    margin-left: 0px;
 }
 
 .content table tr td .submit_button {
@@ -101,6 +102,8 @@
 .content table tr .note {
     color: #5F6368;
     line-height: 21px;
+    margin-right: 36px;
+    margin-bottom: 10px;
 }
 
 a{
@@ -108,4 +111,5 @@ a{
     color: #5F6368;
     background: #FFFFFF;
     background-color: rgba(242, 153, 74, 0);
+    font-style: normal;
 }
