@@ -12,14 +12,11 @@
     align-items: center;
     justify-content: center;
 
-    /* height: 776px; */
     width: 100%;
     min-height: 100vh;
 }
 
 .content {
-    margin-top: -80px;
-    /* background: #FFFFFF; */
     background-color: #FFFFFF;
     height: 356px;
     width: 417px;

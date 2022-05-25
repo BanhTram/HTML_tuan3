@@ -7,11 +7,28 @@
     background: #F8F8F8;
 }
 
-.container {
+/* .container {
     margin-top: 42px;
     margin: auto;
     width: 417px;
     height: 679px;
+} */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* height: 776px; */
+    width: 100%;
+    min-height: 100vh;
+}
+
+.content {
+    background-color: #FFFFFF;
+    height: 375px;
+    width: 417px;
+
+    border-radius: 6px;
 }
 
 .parent_table {
