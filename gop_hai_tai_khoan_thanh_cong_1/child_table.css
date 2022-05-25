@@ -1,0 +1,53 @@
+.child_table {
+    margin-left: 30px;
+    height: 163px;
+    width: 352px;
+    border-radius: 10px;
+    /* background: rgba(242, 153, 74, 0.1); */
+    background: #F2994A1A;
+}
+
+.child_table tr {
+    background: rgba(242, 153, 74, 0.1);
+    border-radius: 10px;
+}
+
+.child_table tr td {
+    background: rgba(242, 153, 74, 0.1);
+    padding-left: 16px;
+    line-height: 26px;
+}
+
+.child_table tr td img {
+    border-radius: 50%;
+}
+
+.child_table tr .buffalo_icon {
+    text-align: center;
+}
+
+.row_first_child_table {
+    padding-top: 10px;
+}
+
+.row_last_child_table {
+    padding-bottom: 10px;
+}
+
+.end_mail {
+    padding-left: 30px;
+    background: #FFFFFF;
+    margin-top: 16px;
+}
+
+span{
+    background-color: rgba(242, 153, 74, 0);
+    height: 24px;
+}
+
+a{
+    text-decoration: none;
+    color: #5F6368;
+    background: #FFFFFF;
+    background-color: rgba(242, 153, 74, 0);
+}

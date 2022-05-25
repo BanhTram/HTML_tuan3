@@ -1,0 +1,46 @@
+footer {
+    box-sizing: border-box;
+    margin-top: 26px;
+}
+
+footer .footer {
+    margin-top: 20px;
+    height: 105px;
+    width: 417px;
+
+    font-style: italic;
+    color: #5F6368;
+    line-height: 21px;
+    letter-spacing: 0px;
+}
+
+footer .footer table {
+    background: #F8F8F8;
+    padding-top: 10px;
+}
+
+footer .footer table tr {
+    background: #F8F8F8;
+}
+
+footer .footer table tr td {
+    background: #F8F8F8;
+    text-align: center;
+}
+
+footer .footer table .last_line{
+    font-style: normal;
+}
+footer .footer table tr .contact {
+    width: 417px;
+    padding-bottom: 12px;
+}
+
+footer .footer table tr .help {
+    padding-left: 30px;
+    padding-right: 26px;
+}
+
+footer .footer table tr .unsubcribe {
+    padding-left: 34px;
+}
