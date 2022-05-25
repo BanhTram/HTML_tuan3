@@ -113,3 +113,6 @@ a{
     background-color: rgba(242, 153, 74, 0);
     font-style: normal;
 }
+sup{
+    font-size: 10px;
+}
